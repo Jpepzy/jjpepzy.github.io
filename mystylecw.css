@@ -1,8 +1,8 @@
 body {
 	background-image: url(Warlords.jpg), url(grad1.png);
-	background-position: center 50px, center 350px;
+	background-position: center 50px,center 350px;
 	background-repeat:repeat-x;
-	background-size: 500px, cover;
+	background-size: 520px, cover;
 	background-color: black;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;	
@@ -160,9 +160,9 @@ li:last-child {
 }
 
 .center {
-	position: absolute;
+	position: relative;
     left: 0;
-    top: 5%;
+    top: 5em;
     text-align: center;
     font-size: 48px;
 }
@@ -171,9 +171,13 @@ li:last-child {
 
 header {
 	background: rgba(255,255,240,0.8);
-	padding: 1em;
+	padding: 0.3em;
 	margin: 1em 1em 1em 1em;
 	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 	
 	
 }
@@ -269,7 +273,7 @@ pre {
  
  
  
- @media (max-width: 400px) {
+ @media (max-width: 530px) {
     li {
         float: none;
         width:100%;
@@ -280,6 +284,10 @@ pre {
 	.dropdown-content a:hover {
 		width:185px;
 		#font-weight:normal;
+	}
+	.center{
+		font-size:24px;
+		top:11.5em
 	}
 }
   
