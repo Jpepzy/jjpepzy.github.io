@@ -1,8 +1,8 @@
 body {
 	background-image: url(Warlords.jpg), url(grad1.png);
-	background-position: center 50px,center 350px;
+	background-position: center 50px,cover;
 	background-repeat:repeat-x;
-	background-size: 520px, auto;
+	background-size: 520px, cover;
 	background-color: black;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;	
