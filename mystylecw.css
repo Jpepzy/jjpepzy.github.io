@@ -40,7 +40,7 @@ li {
 li:hover{
 	border-bottom-color: cyan;
 	border-left-color: cyan;
-	transform: rotate(360deg)
+	
 }
 
 li:active{
