@@ -1,0 +1,38 @@
+
+create table Student(
+
+     courseName varchar(80) not null ,
+
+     fName text not null,
+
+     lName text not null,
+
+     yearOfBirth year(4) not null ,
+
+     carManuf text not null ,
+
+     birthReg date not null ,
+
+     unitCount int(2) not null ,
+
+     filmReview text(80) not null ,
+
+     petAge int(2) not null ,
+
+     phoneNo varchar(12) not null ,
+
+     constraint PKStudent primary key (courseName)     
+
+);
+
+
+
+create table Album(
+
+     constraint FK01 foreign key     
+
+);
+
+
+
+constraint fk01 foreign key (artID)references Owner(albumID)
